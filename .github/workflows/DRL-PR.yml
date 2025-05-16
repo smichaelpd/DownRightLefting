@@ -89,4 +89,4 @@ jobs:
       with:
         name: Upload Artifacts
         path: |
-          **/bin/$env:Configuration/net6.0/*.*
+          **/bin/${{ matrix.configuration}}/net6.0/*.*
