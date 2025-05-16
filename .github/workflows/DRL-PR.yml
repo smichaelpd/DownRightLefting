@@ -89,4 +89,4 @@ jobs:
       with:
         name: Upload Artifacts
         path: |
-          **/bin/$env:Configuration/*.exe
+          **/bin/$env:Configuration/net6.0/*.*
